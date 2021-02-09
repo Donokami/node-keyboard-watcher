@@ -5,7 +5,7 @@
 #include <uv.h>
 #include "shared.h"
 
-static boolean IsRunning = false;
+static bool IsRunning = false;
 static uv_thread_t hook_tid;
 
 enum class keystate
